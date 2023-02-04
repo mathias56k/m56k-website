@@ -11,9 +11,26 @@ a {
     color: #dddddd;
 }
 
-a:hover {
+.icon-link:hover,
+.link-hov:hover {
     color: #a6ffff;
 }
+
+.link-in-text {
+    font-weight: 600;
+}
+
+
+/* Status */
+.in-progress {
+    color: rgb(255, 255, 131);
+    font-weight: 200;
+ }
+
+ .done {
+    color: rgb(91, 229, 91);
+    font-weight: 200;
+ }
 
 /* Title */
 #title {
@@ -93,3 +110,5 @@ hr {
     color: #5b5b5b;
     margin: 0 20px;
  }
+
+ 
