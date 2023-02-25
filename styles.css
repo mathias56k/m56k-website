@@ -22,14 +22,16 @@ a {
 
 
 /* Status */
+.in-progress, .done {
+    font-weight: 200;
+}
+
 .in-progress {
     color: rgb(255, 255, 131);
-    font-weight: 200;
  }
 
  .done {
     color: rgb(91, 229, 91);
-    font-weight: 200;
  }
 
 /* Title */
@@ -58,8 +60,7 @@ a {
     font-weight: 400;
     font-size: 30px;
     padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
+    margin: 0, 0, 10px, 0;
     align-self: center;
     flex-direction: column;
 }
@@ -109,4 +110,17 @@ hr {
 .footer-item {
     color: #5b5b5b;
     margin: 0 20px;
+ }
+
+/* Icons Under Desc */
+ .html-icon {
+    color: #ff8c2e;
+ }
+
+ .css-icon {
+    color: #3182ca;
+ }
+
+ .js-icon {
+    color: #cce04a;
  }
