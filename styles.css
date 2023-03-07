@@ -1,3 +1,8 @@
+/* Html & Body */
+html, body {
+    overflow-x: hidden;
+}
+
 /* Body */
 body {
     font-family: Poppins, sans-serif;
