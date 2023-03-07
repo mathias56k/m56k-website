@@ -124,3 +124,13 @@ hr {
  .js-icon {
     color: #cce04a;
  }
+
+ /* Additional Links */
+.additional-links {
+    text-decoration: none;
+}
+
+.additional-links:hover {
+    color: #a6ffff;
+    cursor: pointer;
+}
