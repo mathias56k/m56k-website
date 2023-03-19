@@ -22,10 +22,6 @@ html {
     padding: 5px 5px 0px 5px;
 }
 
-.menu-item:hover {
-    cursor: pointer;
-}
-
 .menu-container {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +33,45 @@ html {
     height: 100%;
 }
 
-/*  */
+.menu-item-sm {
+    font-size: 1.5em;
+    position: absolute;
+    transform: translate(300%, -85%);
+    opacity: 0;
+    cursor: default;
+}
+
+.text-item, .menu-item-sm {
+    transition: transform 1s cubic-bezier(.2,.69,.07,.93);
+}
+
+.menu-group:hover .text-item:nth-of-type(1) {
+    transform: translate(-5%, -5%) rotate(-5deg);
+    cursor: pointer;
+    border: 20px blue;
+}
+
+.menu-group:hover .menu-item-sm:nth-of-type(1) {
+    transform: translate(700%, -160%) rotate(15deg);
+    opacity: 1;
+}
+
+.menu-group:hover .menu-item-sm:nth-of-type(2) {
+    transform: translate(-150%, -190%) rotate(-15deg);
+    opacity: 1;
+}
+
+.menu-group:hover .menu-item-sm:nth-of-type(3) {
+    transform: translate(650%, 50%) rotate(15deg);
+    opacity: 1;
+}
+
+.menu-group:hover .menu-item-sm:nth-of-type(4) {
+    transform: translate(-200%, 30%) rotate(-25deg);
+    opacity: 1;
+}
+
+/* Bigger than phone */
 @media all and (min-width: 992px) {
     .menu-container {
         flex-direction: row;
