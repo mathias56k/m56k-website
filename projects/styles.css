@@ -1,0 +1,49 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin & padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Set default font family and size */
+body {
+  font-family: 'Ubuntu Mono', sans-serif;
+}
+
+/* Remove border on images */
+img {
+  border-style: none;
+}
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+}
