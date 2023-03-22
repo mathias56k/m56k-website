@@ -12,12 +12,8 @@ body {
     height: 100vh;
 }
 
-html {
-    background-color: #252525;
-}
-
 .menu-item {
-    color: white;
+    color: #eaeaea;
     margin: 20px 80px;
     padding: 5px 5px 0px 5px;
 }
@@ -25,7 +21,7 @@ html {
 .menu-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: #252525;
+    background-color: #222629;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -45,6 +41,8 @@ html {
 .text-item {
     position: relative;
     display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
 }
   
 .text-item:before {
@@ -54,7 +52,7 @@ html {
     top: 0;
     height: 100%;
     width: 0%;
-    background-color: #ff8c00;
+    background-color: #61892F;
     z-index: -1;
     transition: all 0.4s ease-in-out;
     opacity: 0;
