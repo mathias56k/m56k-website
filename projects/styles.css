@@ -50,3 +50,31 @@ a {
 
 /**/
 
+html, body {
+  background-color: grey;
+}
+
+.page-container {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2em;
+  justify-content: space-between;
+}
+
+.project-container {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-footer {
+  background-color: pink;
+}
