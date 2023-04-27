@@ -88,9 +88,9 @@ body {
 }
 
 .menu-group:hover .menu-item-sm:nth-of-type(3) {
-    transform: translate(650%, 50%) rotate(15deg);
+    transform: translate(610%, 50%) rotate(15deg);
     opacity: 1;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .menu-group:hover .menu-item-sm:nth-of-type(4) {
